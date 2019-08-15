@@ -1,0 +1,205 @@
+.navigation{
+    height:7vh;
+    width: 100%;
+    border: 0px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.headhere{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+  border: 0px solid green;
+  margin-left: 8vw;
+  margin-top: -11vh;
+}
+
+.butquesbox{
+  margin-left: 48.4vw;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.5vh;
+  border: 0px solid green;
+  margin-left: 2vh;
+}
+.but2{
+  height: 5vh;
+  width: 11vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 105, 105);
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px; 
+  /* box-shadow: 2px 1px 0px 1px black; */
+
+}
+.queshub{
+    border: 0px solid green;
+    height:86vh;
+    width:100%;
+  }
+  
+   .part1 {
+      height: 43vh;
+      width: 100%;
+      border: 0px solid blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .part2 {
+      height: 43vh;
+      width: 100%;
+      border: 0px solid blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+ 
+    .flip-card-inner {
+      width: 100%;
+      height: 32vh;
+      text-align: center;
+      border: 1px  black;
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.397);
+      border-radius: 10px;
+    }
+    .flip-card-front {
+      width: 36vh;
+      height: 32vh;
+      border: 1px  black;
+      background-color: rgba(212, 236, 236, 0.692);
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.397);
+      color: black;
+      border-radius: 10px;
+    }
+
+    .qno {
+      width: 100%;
+      height:1vh;
+      border: 0px solid green;
+    }
+    .qhead {
+      padding-top: 2vh;
+      width: 100%;
+      height: 8vh;
+      border: 0px solid green;
+      font-size: 2.7vh;
+      font-weight: bold;
+      border-bottom: 2px solid black;
+    }
+
+    .attempts {
+      padding-top: 2vh;
+      width: 100%;
+      height: 9vh;
+      border: 0px solid green;
+      font-weight: 700;
+    }
+    .accuracy {
+      height: 11vh;
+      width: 100%;
+      border: 0px solid red;
+      padding-top: 2vh; 
+       display: flex; 
+      margin-top: 0vh;
+      margin-left: 0.08vw;
+      justify-content: center;
+    }
+    .insideaccu{
+      border: 0px solid green;
+      height: 4vh;
+      width:80%;
+    }
+    .accutext{
+      border: 0px solid red;
+      height: 4vh;
+      width:100%;
+      font-weight: 550;
+    }
+    .flip-card-back {
+      height: 30vh;
+      border: 0px solid black;
+      backface-visibility: hidden;
+      background-color: #bbb;
+      color: white;
+      transform: rotateY(180deg);
+      z-index: 1;
+      display:flex;
+      align-items: center;
+    }
+    .try {
+      height: 10vh;
+      width: 100%;
+      border: 0px solid green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .Q1 {
+      margin-left: -4vw;
+    }
+    .Q2 {
+      margin-left: 9vw;
+    }
+    .Q3 {
+      margin-left:9vw;
+    }
+    .Q4 {
+      margin-left: -4vw;
+    }
+    .Q5 {
+      margin-left: 9vw;
+    }
+    .Q6 {
+    
+      margin-left: 9vw;
+    }
+    .flip-card:hover{
+      border-radius: 10px;
+      box-shadow: 0 0 22px black;
+      transform: translateX(2px);
+      transform: translateY(2px);
+      
+    }
+    .progs{
+      background-color:teal;
+    }
+    .progress{
+      height:2.7vh;
+      margin-top: 1vh;
+      
+    }
+
+
+
+    /* .flip-card:hover .flip-card-inner {
+      transform: rotateY(-180deg);
+      -webkit-transform: rotateY(-180deg);
+    }
+  
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 32vh;
+      height: 30vh;
+      backface-visibility: hidden;
+    } */
+
+    /* 
+    .question {
+      height: 30vh;
+      border: px solid green;
+    }
+     */

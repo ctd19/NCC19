@@ -1,0 +1,56 @@
+// C program for generating a
+// random number in a given range.
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include<bits/stdc++.h>
+using namespace std;
+// Generates and prints 'count' random
+// numbers in range [lower, upper].
+int printRandoms(int lower, int upper)
+{
+  int num = (rand() % (upper - lower + 1)) + lower;
+  return num;
+}
+
+// Driver code
+int main()
+{
+
+    // Use current time as
+    // seed for random generator
+    srand(time(0));
+
+    
+    int t=10;
+
+    cout<<t<<"\n";
+
+    while(t--)
+    {
+    	int n=printRandoms(1, 100000);
+      int k=printRandoms(1, 10000);
+      int ellapse = printRandoms(1, 1005);
+	    	
+      cout<<n<<" "<<k<<" "<<ellapse<<"\n";
+      int a[n];
+      
+      a[0] = printRandoms(1,100000);
+      
+      for(int i=1;i<n;i++)      
+      {
+      	a[i] = (a[i-1]+(rand()%ellapse));
+      }      
+  	
+  	sort(a,a+n);
+      
+      for(int i=0;i<n;i++)
+      	cout<<a[i]<<" ";
+	
+	cout<<"\n";
+
+    }
+
+
+    return 0;
+}

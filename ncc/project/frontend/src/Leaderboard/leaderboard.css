@@ -1,0 +1,203 @@
+/* .navig{
+    height:7vh;
+    width: 100%;
+    border: 0px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;   
+} */
+
+.leader1{
+  
+    color: white;
+    border: 0px solid red;
+    height:86vh;
+    width:100%;
+  }
+  .a{
+    height: 86vh;
+    width: 100%;
+    border: solid 0px red;
+  }
+  .Leaderbox{
+      height: 10vh;
+      width: 100%;
+      border: 0px solid green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+  .headhereleader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    border: 0px solid green;
+    margin-left: 8vw;
+    margin-top: -11vh;
+  }
+  .heading {
+    height: 8vh;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid red;
+    border-radius: 100px;
+    color: rgb(214, 236, 236);
+    }
+  .LeaderLeaderbox{
+    height: 76vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    border: 0px solid green;
+  }
+  .Leaderboard{
+    height: 76vh;
+    width: 100%;
+    justify-content: center;
+    border: 0px solid black;
+  } 
+  .ltableuplead{
+    width: 90%;
+    height: 5vh;
+    margin-left: 5vw;
+    color: rgba(185, 223, 223, 0.911);
+    border-top-right-radius:2vh;
+    border-top-left-radius:2vh;
+    background-color: rgba(0, 0, 0, 0.712);
+    font-size: 2.6vh;
+    border:0px solid black;
+
+  }
+  .ltabledown {
+    background: rgba(0, 0, 0, 0.4);
+    width: 90%;
+    height: 5vh;
+    margin-left: 5vw;
+    overflow: auto;
+    color: rgb(224, 224, 224);
+    border-radius:2vh;
+    font-size:2.4vh;
+    border-radius:0px;
+    border: 0px solid red;  
+  
+
+
+          
+  }
+  .leadertable{
+    height: 60vh;
+    overflow-y: auto;
+    border-radius: 0px;
+
+
+  }
+  .leadertable::-webkit-scrollbar{
+      display: none;
+  }
+  .butleadbox{
+    margin-left: 51.2vw;
+  }
+  .boxlead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.5vh;
+    border: 0px solid green;
+    margin-left: -3vh;
+
+  }
+  .but9{
+    height: 5vh;
+    width: 11vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 105, 105);
+    color: white;
+    border: 0px solid yellow  ;
+    border-radius: 5px; 
+    margin-right: 3vw;
+    /* box-shadow: 2px 1px 0px 1px black; */
+  
+  }
+  th,
+  td {
+    height: 11vh;
+    border: 0px solid white
+  }
+  .teamrank {
+    font-size: 2.6vh;
+    justify-content: center;
+    margin-left: 2vw;
+    padding-left: 4vw;
+    width: 12vw;
+    height: 0vh;
+    border: 0px solid green;
+  }
+  .teamame {
+    font-size: 2.6vh;
+    width: 18vw;
+    padding-left: 2.6vw;
+
+ }
+  .quest{
+    font-size: 2.6vh;
+    width: 8vw;
+    padding-left: 1.9vw;
+
+  }
+  .totalsc {
+    font-size: 2.6vh;
+    width: 10vw;
+    padding-left: 1.9vw;
+
+  }
+  .teamrankd {
+    justify-content: center;
+    margin-left: 2vw;
+    padding-left: 5vw;
+    width: 12vw;
+
+  }
+  .teamamed {
+    width: 17vw;
+    padding-left: 2.6vw;
+
+ }
+  .questd {
+    width: 8vw;
+    padding-left: 0.8vw;
+
+  }
+  .totalscd{
+    width: 10vw;
+    padding-left: 2.3vw;
+
+  }
+ 
+  .line1{
+      border-bottom: 0px solid rgb(0, 0, 0); 
+      margin-top: 2vh;  
+  }
+ 
+.Acscore{
+  height: 7.5vh;
+  padding-top: 2.3vw;
+  padding-left: 1.5vw;
+  border: 0px solid green;
+}
+
+.Actime{
+  height: 3vh;
+  font-size: 1.7vh;
+  padding-left: 1.2vw;
+
+  border: 0px solid green;
+}

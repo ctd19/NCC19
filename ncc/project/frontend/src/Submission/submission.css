@@ -1,0 +1,214 @@
+.navig{
+    height:7vh;
+    width: 100%;
+    border: 0px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;   
+}
+
+.submiss{
+  
+    color: white;
+    border: 0px solid green;
+    height:86vh;
+    width:100%;
+  }
+  .ab{
+    height: 86vh;
+    border: solid 0px red;
+  }
+  .subbox{
+      height: 10vh;
+      width: 100%;
+      border: 0px solid green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+  .headheresub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    border: 0px solid green;
+    margin-left: 8vw;
+    margin-top: -11vh;
+  }
+  .headingsub {
+    height: 8vh;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid red;
+    border-radius: 100px;
+    color: rgb(214, 236, 236);
+
+  }
+  .SubSubbox{
+    height: 76vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    border: 0px solid green;
+  }
+  .Submissionsub{
+    height: 76vh;
+    width: 100%;
+    justify-content: center;
+    border: 0px solid black;
+  } 
+  .tableupsub {
+    background: rgba(0, 0, 0, 0.794);
+    width: 90%;
+    height: 5vh;
+    margin-left: 5vw;
+    color: rgba(185, 223, 223, 0.911);
+    border-top-right-radius:3vh;
+    border-top-left-radius: 3vh;
+    font-size: 2.6vh;
+  }
+  .tabledown {
+    background: rgba(0, 0, 0, 0.4);
+    width: 90%;
+    height: 5vh;
+    margin-left: 5vw;
+    overflow: auto;
+    color: rgb(224, 224, 224);
+
+          
+  }
+  .submisstable{
+    height: 60vh;
+    overflow-y: auto;
+
+  }
+  .submisstable::-webkit-scrollbar{
+      display: none !important;
+  }
+  .butbox{
+    margin-left: 38.5vw;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.5vh;
+    border: 0px solid green;
+    margin-left: 3vw;
+  }
+  
+  /* .butbut123:hover{
+    padding-left: 1px;
+  }
+  .butbut123:after{
+      content: '»';
+      color: white;
+      position: absolute;
+      opacity: 0;  
+      padding-left: 8vh;
+      padding-bottom: 0.5vh;
+      transition: 0.5s;
+      font-size: 2.5vh;
+  }
+  .butbut123:hover:after{
+    opacity: 1;
+    
+  } */
+  
+  th,
+  td {
+    height: 10vh;
+  }
+  .ranksub {
+    justify-content: center;
+    border:0px solid black;
+    width:15vw;
+    padding-left: 6.5vw;
+    font-size:3vh;
+    font-weight: 400;
+    
+  }
+  .timeSub {
+    border:0px solid black;
+    width:20vw;
+    padding-left: 9.5vw;
+    font-size: 3vh;
+    font-weight: 400;
+  }
+  .timeSubd {
+    border:0px solid black;
+    width:20vw;
+    padding-left: 9vw;
+    font-size: 2.3vh;
+    font-weight: 400;
+  }
+  .status {
+    border:0px solid black;
+    width:20vw;
+    padding-left: 9vw;
+    font-size: 3vh;
+    font-weight: 400;
+
+
+  }
+  .sr{
+    justify-content: center;
+    border:0px solid black;
+    width:15vw;
+    padding-left: 8vw;  
+    font-size: 2.7vh;
+    font-weight: 400;
+
+  }
+  
+  .butty {
+    border:0px solid black;
+    width:20vw;
+    padding-left: 7vw;
+
+  }
+  .borderline{
+      border-bottom: 0px solid rgb(0, 0, 0);  
+      width:10%;
+      
+  }
+  .butbut123{
+    height: 6vh;
+    width: 9vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 105, 105);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+
+  }
+  .progsub{
+    border:0px solid black;
+    width:20vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .progress{
+    height: 3.7vh;
+    border:0px solid black;
+    border-radius: 51px;
+
+  }
+  .progress-bar-success{
+    background-color: rgb(34, 180, 180);
+  }
+ .substat{
+   color:white;
+   padding-left: 5vw;
+ }
+
+  /* borderline */
