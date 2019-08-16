@@ -1,5 +1,4 @@
 ncc/project/db.sqlite3
 __pycache__/
-migrations/
 node_modules/
 .idea/
