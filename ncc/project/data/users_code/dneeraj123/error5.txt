@@ -1,4 +1,0 @@
-data/users_code/dneeraj123/question5/dneeraj12351.cpp: In function ‘int main()’:
-data/users_code/dneeraj123/question5/dneeraj12351.cpp:19:13: error: ‘i’ was not declared in this scope
-         for(i=0;i<n;i++)
-             ^
